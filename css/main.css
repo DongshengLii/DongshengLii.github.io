@@ -185,7 +185,7 @@ th {
 }
 body {
   position: relative;
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Monda', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 14px;
   line-height: 2;
   color: #555;
@@ -216,7 +216,7 @@ h6 {
   padding: 0;
   font-weight: bold;
   line-height: 1.5;
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Roboto Slab', 'Monda', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 h2,
 h3,
@@ -455,7 +455,7 @@ body {
 .header-inner {
   margin: 0 auto;
   padding: 100px 0 70px;
-  width: 700px;
+  width: 810px;
 }
 @media (min-width: 1600px) {
   .container .header-inner {
@@ -467,7 +467,7 @@ body {
 }
 .main-inner {
   margin: 0 auto;
-  width: 700px;
+  width: 810px;
 }
 @media (min-width: 1600px) {
   .container .main-inner {
@@ -484,7 +484,7 @@ body {
 .footer-inner {
   box-sizing: border-box;
   margin: 20px auto;
-  width: 700px;
+  width: 810px;
 }
 @media (min-width: 1600px) {
   .container .footer-inner {
@@ -503,7 +503,7 @@ pre,
 }
 pre,
 code {
-  font-family: consolas, Menlo, "PingFang SC", "Microsoft YaHei", monospace;
+  font-family: 'PT Mono', consolas, Menlo, "PingFang SC", "Microsoft YaHei", monospace;
 }
 code {
   padding: 2px 4px;
@@ -999,13 +999,13 @@ pre .javascript .function {
 .brand {
   position: relative;
   display: inline-block;
-  padding: 0 40px;
-  color: #fff;
-  background: #222;
+  padding: 0 80px;
+  color: #8b00fb;
+  background: transparent;
+  line-height: 36px;
+  font-weight: normal;
+  font-family: 'Lobster Two', 'Monda', "PingFang SC", "Microsoft YaHei", sans-serif;
   border-bottom: none;
-}
-.brand:hover {
-  color: #fff;
 }
 .logo {
   display: inline-block;
@@ -1016,10 +1016,11 @@ pre .javascript .function {
 .site-title {
   display: inline-block;
   vertical-align: top;
-  line-height: 36px;
-  font-size: 20px;
+  line-height: 56px;
+  font-size: 48px;
+  color: #f5f5f5;
   font-weight: normal;
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Lobster Two', 'Roboto Slab', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 .site-subtitle {
   margin-top: 10px;
@@ -1076,6 +1077,11 @@ pre .javascript .function {
   margin-top: 20px;
   padding-left: 0;
   text-align: center;
+  background: rgba(255,255,255,0.65);
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
+  border-radius: initial;
 }
 .menu .menu-item {
   display: inline-block;
@@ -1088,7 +1094,7 @@ pre .javascript .function {
 }
 .menu .menu-item a {
   display: block;
-  font-size: 13px;
+  font-size: 16px;
   text-transform: capitalize;
   line-height: inherit;
   border-bottom: 1px solid transparent;
@@ -1107,7 +1113,7 @@ pre .javascript .function {
   opacity: 0;
 }
 .post-body {
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Monda', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 @media (max-width: 767px) {
   .post-body {
@@ -1143,7 +1149,7 @@ pre .javascript .function {
 .posts-expand {
   padding-top: 40px;
 }
-@media (max-width: 767px) {
+@media (max-width: 1080px) {
   .posts-expand {
     margin: 0 20px;
   }
@@ -1372,7 +1378,7 @@ pre .javascript .function {
 .posts-expand .post-meta {
   margin: 3px 0 60px 0;
   color: #999;
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Monda', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 12px;
   text-align: center;
 }
@@ -1548,6 +1554,16 @@ pre .javascript .function {
 .fancybox-close:hover {
   border: none;
 }
+.post-body p a {
+  color: #0593d3;
+  border-bottom: none;
+  border-bottom: 1px solid #0593d3;
+}
+.post-body p a:hover {
+  color: #fc6423;
+  border-bottom: none;
+  border-bottom: 1px solid #fc6423;
+}
 .sidebar {
   position: fixed;
   right: 0;
@@ -1705,7 +1721,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #468b3d;
+  background: #0418f6;
 }
 .links-of-blogroll {
   font-size: 13px;
